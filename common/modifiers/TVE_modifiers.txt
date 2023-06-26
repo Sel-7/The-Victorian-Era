@@ -1,0 +1,83 @@
+### Balance Changes
+
+base_values = {
+	country_weekly_innovation_add = 50
+	country_tech_spread_add = 35
+	
+	country_loan_interest_rate_add = 0.2
+	
+	
+	country_bureaucracy_add = 150
+	country_authority_add = 100
+	country_influence_add = 100
+
+	country_revolution_secession_speed_add = 0.05
+	
+	state_education_access_wealth_add = 0.001
+	
+	country_minting_add = 500
+
+	state_tax_capacity_add = 100
+	state_infrastructure_add = 3
+	
+	state_poor_expected_sol = 5
+	state_middle_expected_sol = 10
+	state_rich_expected_sol = 15
+	state_expected_sol_from_literacy = 5
+	
+	country_construction_add = 40
+	
+	building_mobilization_cost_mult = 0.65
+	
+	building_economy_of_scale_level_cap_add = 10
+}
+
+economy_of_scale = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_throughput_mult = 0.003 ### Throughput at 51 Buildings for EOS is now 15 (50*0.003=0.15[15%])
+}
+
+excess_innovation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	#country_tech_spread_add = 0.02 ###To stop the prevalance of tech rushing.
+}
+
+in_default = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	building_throughput_mult = -0.75 ### Should not be able to build when in default???
+	unit_offense_mult = -0.25 ### The Soldiers wouldn't know of this, main debuff would be lack of supplies which already exists.
+	unit_defense_mult = -0.25
+}
+
+declared_bankruptcy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_prestige_mult = -0.75
+	country_loan_interest_rate_mult = 0.8
+	unit_offense_mult = -1
+	unit_defense_mult = -1
+	state_radicals_from_sol_change_mult = 1.0
+	state_construction_mult = -0.9
+} ###Bankruptcy is alot more punishing now.
+
+incorporated_state = {
+	state_radicals_from_sol_change_mult = -0.5 ###Pops should be better off in incorp.
+}
+
+unincorporated_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	state_infrastructure_mult = -0.25
+	state_construction_mult = -0.5
+	building_group_bg_manufacturing_throughput_mult = -0.95 #industries
+	building_government_administration_throughput_mult = -0.95
+	state_conscription_rate_mult = -1
+	state_conscription_rate_add = 0.02
+	state_building_port_max_level_add = -4
+	state_building_barracks_max_level_add = -95
+	state_building_construction_sector_max_level_add = -4
+	building_group_bg_army_throughput_mult = -0.1 #army, conscription
+	building_economy_of_scale_level_cap_add = -20
+	state_building_naval_base_max_level_add = -35
+	state_pop_pol_str_mult = -0.9
+}
+
+
