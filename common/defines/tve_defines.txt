@@ -3,8 +3,9 @@ NMilitary = {
 	BASE_MORALE_RECOVERED_PER_DAY = 0.04		# Default morale recovered is 3% per day
 	MIN_MOBILIZATION_PER_DAY = 0.01				# minimum mobilization gained per day by each mobilizing battalion (the last unit to gain mobilization in a state might have to do with whatever is left)
 	MAX_MOBILIZATION_PER_DAY = 0.1			# maximum mobilization gained per day by each mobilizing battalion.
-	MAX_SIMULTANEOUS_BATTLES = 2
 }
+
 NWar = {
-	PREFER_BATTLES_IN_UNIQUE_STATES = yes
+	MAX_SIMULTANEOUS_BATTLES = 3
+	
 }
