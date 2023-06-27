@@ -1,0 +1,29 @@
+﻿l_english:
+ DECISION_TOOLTIP_FORMAT:1 "#header $NAME$#!\n$TOOLTIP_DELIMITER$\n$TRIGGER_SUMMARY$\n\nWhen taken:\n$EFFECT_SUMMARY$"
+
+ build_railways:0 "Build railways"
+ build_railways_desc:0 "Adds just enough railways everywhere to ensure full market access"
+ build_railways_tooltip:0 "Click to build more railways"
+ build_administrations:0 "Build government administrations"
+ build_administrations_desc:0 "Adds just enough government administrations everywhere to ensure taxation capacity"
+ build_administrations_tooltip:0 "Click to build more government administrations"
+ 
+ tooltip_buildrailwaysx:0 "#header Maximize Market Access #!\n$TOOLTIP_DELIMITER$\nClick this button to add as many railways as needed to the construction queue in order to maximize market access."
+ tooltip_buildrailwaysxx:0 "#header Maximize Market Access #!\n$TOOLTIP_DELIMITER$\n#red #italic #bold #gold Railways#! has not yet been researched by [GetPlayer.GetName]"
+ tooltip_buildrailways:0 "[GetPlayer.GetCustom('researchedrailwayscustom')]"
+ tooltip_govadm:0 "#header Maximize Taxation Capacity #!\n$TOOLTIP_DELIMITER$\nClick this button to add as many government administration buildings as needed to the construction queue in order to maximize taxation capacity in incorporated states."
+ tooltip_universities:0 "#header Maximize Education Access #!\n$TOOLTIP_DELIMITER$\nClick this button to add universities to all incorporated states that don't have any within them."
+ tooltip_doctrine:0 "#header Choose your National Doctrine #!\n$TOOLTIP_DELIMITER$\nClick this button to select your national doctrine. Option won't be available if you've already chosen a focus, wait for the 5 year timer to expire."
+ 
+ #### Doctrines
+ tve_national_doctrine.1.t:0 "The National Doctrine"
+ tve_national_doctrine.1.desc:0 "Our nation can choose to focus down a path of Society, Military, Industry and Diplomacy. Whilst they all come with positive boons for our great nation, there will also be drawbacks."
+ tve_national_doctrine.1.a:0 "Remain a Balanced Nation"
+ tve_national_doctrine.1.b:0 "Focus on our Scholars"
+ tve_national_doctrine.1.c:0 "Focus on our Military Tactics"
+ tve_national_doctrine.1.d:0 "Focus on our Industrial Policies"
+ tve_national_doctrine.1.e:0 "Focus on our Diplomatic Affairs."
+
+
+
+ 
