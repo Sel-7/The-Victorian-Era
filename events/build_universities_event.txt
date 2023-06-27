@@ -1,0 +1,23 @@
+namespace = build_universities_events
+
+build_universities_events.1 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		always = yes
+	}
+
+	immediate = {
+		every_scope_state = {
+			if = {
+				limit = {
+					AND = {
+						is_incorporated = yes
+					}
+				}
+				start_building_construction = building_university
+			}
+		}
+	}
+}
