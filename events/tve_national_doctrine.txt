@@ -1,0 +1,93 @@
+namespace = tve_national_doctrine
+
+tve_national_doctrine.1 = {
+	type = country_event
+	placement = root
+	title = tve_national_doctrine.1.t
+	desc = tve_national_doctrine.1.desc
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	icon =  "gfx/interface/icons/event_icons/event_scales.dds"
+	
+	trigger = {
+		always = yes
+	}
+
+	duration = 3
+
+	immediate = {
+		add_modifier = {
+			name = tve_national_doctrine_cd
+			years = 5
+		}
+	}
+
+	option = { ###Remove Cooldown [[ First so auto pick doesn't lock you into a doctrine you didn't want. ]]
+		name = tve_national_doctrine.1.a
+		hidden_effect = {
+			remove_modifier = tve_national_doctrine_cd
+			remove_modifier = tve_doctrine_society
+			remove_modifier = tve_doctrine_military
+			remove_modifier = tve_doctrine_industry
+			remove_modifier = tve_doctrine_diplomacy
+		}
+	}
+
+	option = {
+		name = tve_national_doctrine.1.b
+		add_modifier = {
+			name = tve_doctrine_society
+			years = -1
+		}
+		hidden_effect = {
+			remove_modifier = tve_doctrine_military
+			remove_modifier = tve_doctrine_industry
+			remove_modifier = tve_doctrine_diplomacy
+		}
+	}
+
+	option = {
+		name = tve_national_doctrine.1.c
+		add_modifier = {
+			name = tve_doctrine_military
+			years = -1
+		}
+		hidden_effect = {
+			remove_modifier = tve_doctrine_society
+			remove_modifier = tve_doctrine_industry
+			remove_modifier = tve_doctrine_diplomacy
+		}
+	}
+
+	option = {
+		name = tve_national_doctrine.1.d
+		add_modifier = {
+			name = tve_doctrine_industry
+			years = -1
+		}
+		hidden_effect = {
+			remove_modifier = tve_doctrine_society
+			remove_modifier = tve_doctrine_military
+			remove_modifier = tve_doctrine_diplomacy
+		}
+	}
+
+	option = {
+		name = tve_national_doctrine.1.e
+		add_modifier = {
+			name = tve_doctrine_diplomacy
+			years = -1
+		}
+		hidden_effect = {
+			remove_modifier = tve_doctrine_society
+			remove_modifier = tve_doctrine_military
+			remove_modifier = tve_doctrine_industry
+		}
+	}
+}

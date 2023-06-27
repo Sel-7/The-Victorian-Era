@@ -1,3 +1,44 @@
+### doctrine
+
+tve_national_doctrine_cd = {
+	
+}
+
+tve_doctrine_society = {
+	country_tech_spread_add = 20
+	country_weekly_innovation_add = 10
+	country_bureaucracy_mult = -0.2
+	unit_offense_mult = -0.1
+	unit_defense_mult = -0.1
+}
+
+tve_doctrine_military = {
+	unit_morale_damage_mult = 0.1
+	unit_recovery_rate_add = 0.1
+	building_mobilization_cost_mult = -0.1
+	country_tech_spread_add = -25
+	country_weekly_innovation_add = -10
+	country_bureaucracy_mult = -0.15
+}
+
+tve_doctrine_industry = {
+	state_construction_mult = 0.2
+	country_minting_mult = -0.25
+	building_group_bg_manufacturing_throughput_mult = 0.1
+	unit_army_defense_add = -50
+	unit_army_offense_add = -50
+}
+
+tve_doctrine_diplomacy = {
+	country_minting_mult = -0.1
+	country_loan_interest_rate_mult = 0.5
+	country_infamy_decay_mult = 0.25
+}
+
+###
+
+
+
 ### Balance Changes
 
 base_values = {
@@ -79,5 +120,6 @@ unincorporated_state = {
 	state_building_naval_base_max_level_add = -35
 	state_pop_pol_str_mult = -0.9
 }
+
 
 
