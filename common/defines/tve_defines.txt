@@ -7,5 +7,5 @@ NMilitary = {
 
 NWar = {
 	MAX_SIMULTANEOUS_BATTLES = 3
-	
+	DAYS_BETWEEN_WAR_EXHAUSTION = 14
 }
