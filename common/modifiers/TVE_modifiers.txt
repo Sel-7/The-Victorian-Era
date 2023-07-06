@@ -1,5 +1,9 @@
 ### doctrine
 
+doctrine_15monthlock_cd = {
+	
+}
+
 tve_national_doctrine_cd = {
 	
 }
@@ -30,9 +34,11 @@ tve_doctrine_industry = {
 }
 
 tve_doctrine_diplomacy = {
-	country_minting_mult = -0.1
+	country_minting_mult = -0.15
 	country_loan_interest_rate_mult = 0.5
 	country_infamy_decay_mult = 0.25
+	country_prestige_mult = 0.1
+	country_authority_add = 100
 }
 
 ###

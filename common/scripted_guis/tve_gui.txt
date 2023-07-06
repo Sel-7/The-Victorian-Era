@@ -59,6 +59,7 @@ nationaldoctrinecooldown = {
 	is_valid = {
 		NOT = {
 			has_modifier = tve_national_doctrine_cd
+			has_modifier = doctrine_15monthlock_cd
 		}
 	}
 }
