@@ -11,6 +11,7 @@ tve_national_doctrine_cd = {
 tve_doctrine_society = {
 	country_tech_spread_add = 20
 	country_weekly_innovation_add = 10
+	country_weekly_innovation_max_add = 10
 	country_bureaucracy_mult = -0.2
 	unit_offense_mult = -0.1
 	unit_defense_mult = -0.1
