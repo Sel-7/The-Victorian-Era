@@ -1,7 +1,9 @@
 ﻿l_english: 
-
+ #Doctrine Modifiers
  tve_national_doctrine_cd:0 "Nation focusing"
  tve_doctrine_society:0 "Empower the Scholars"
  tve_doctrine_military:0 "Improving Military Tactics"
  tve_doctrine_industry:0 "Enacting Improved Industrial Policies"
  tve_doctrine_diplomacy:0 "Sending out Diplomats"
+ #University Max Building
+ modifier_state_building_university_max_level_add:0 "University Max Level"
