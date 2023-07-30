@@ -1,0 +1,47 @@
+je_literacy_buff_1x = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	is_shown_when_inactive = {
+		literacy_rate < 0.15
+	}
+	
+	possible = {
+	}
+	
+	complete = {
+		literacy_rate >= 0.15
+		has_healthy_economy = yes
+	}
+	
+	on_complete = {
+		trigger_event = {
+			id = tve_literacy.1
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_literacy_buff_2x = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	is_shown_when_inactive = {
+		ROOT = {
+			literacy_rate > 0.15
+		}
+	}
+	
+	possible = {
+	}
+	
+	complete = {
+		literacy_rate >= 0.3
+		has_healthy_economy = yes
+	}
+	
+	on_complete = {
+		trigger_event = {
+			id = tve_literacy.2
+		}
+	}
+	should_be_pinned_by_default = yes
+}

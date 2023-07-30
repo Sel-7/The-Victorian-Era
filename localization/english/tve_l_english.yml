@@ -1,4 +1,19 @@
 ﻿l_english:
+ #literacy journal + event
+ je_literacy_buff_1x:0 "The Desire for Reform"
+ je_literacy_buff_2x:0 "Further Education Demanded"
+
+ tve_literacy.1:0 "The Desire for Reform"
+ tve_literacy.1.t:0 "The Desire for Reform"
+ tve_literacy.1.desc:0 "The People are starting to see the value in education, and the potential wealth it can provide for their families. Now they wish for further learning."
+ tve_literacy.1.a:0 "Reform the System"
+ 
+ tve_literacy.2:0 "Further Education Demanded"
+ tve_literacy.2.t:0 "Further Education Demanded"
+ tve_literacy.2.desc:0 "After reforming the learning system, now there's an even greater outcry for people to have access to these learning facilities, all desperate to claw their way out of poverty."
+ tve_literacy.2.a:0 "Appease the Learners"
+
+ #
  DECISION_TOOLTIP_FORMAT:1 "#header $NAME$#!\n$TOOLTIP_DELIMITER$\n$TRIGGER_SUMMARY$\n\nWhen taken:\n$EFFECT_SUMMARY$"
 
  build_railways:0 "Build railways"

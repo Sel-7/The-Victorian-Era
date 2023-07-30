@@ -1,14 +1,15 @@
 ### doctrine
 
 doctrine_15monthlock_cd = {
-	
+	icon = gfx/interface/icons/generic_icons/clock.dds
 }
 
 tve_national_doctrine_cd = {
-	
+	icon = gfx/interface/icons/generic_icons/clock.dds
 }
 
 tve_doctrine_society = {
+	icon = gfx/interface/icons/generic_icons/innovation.dds
 	country_tech_spread_add = 20
 	country_weekly_innovation_add = 10
 	country_weekly_innovation_max_add = 10
@@ -18,23 +19,29 @@ tve_doctrine_society = {
 }
 
 tve_doctrine_military = {
+	icon = gfx/interface/icons/generic_icons/battalions.dds
+	state_construction_mult = 0.2
+	country_minting_mult = -0.25
+	building_group_bg_manufacturing_throughput_mult = 0.1
+	unit_army_defense_add = -50
+	unit_army_offense_add = -50
+
+
+}
+
+tve_doctrine_industry = {
+	icon = gfx/interface/icons/generic_icons/profitability_13.dds
 	unit_morale_damage_mult = 0.1
 	unit_recovery_rate_add = 0.1
 	building_mobilization_cost_mult = -0.1
 	country_tech_spread_add = -25
 	country_weekly_innovation_add = -10
 	country_bureaucracy_mult = -0.15
-}
 
-tve_doctrine_industry = {
-	state_construction_mult = 0.2
-	country_minting_mult = -0.25
-	building_group_bg_manufacturing_throughput_mult = 0.1
-	unit_army_defense_add = -50
-	unit_army_offense_add = -50
 }
 
 tve_doctrine_diplomacy = {
+	icon = gfx/interface/icons/generic_icons/truce.dds
 	country_minting_mult = -0.15
 	country_loan_interest_rate_mult = 0.5
 	country_infamy_decay_mult = 0.25
@@ -44,7 +51,25 @@ tve_doctrine_diplomacy = {
 
 ###
 
+###Literacy events
 
+tve_literacy_1 = {
+	icon = gfx/interface/icons/generic_icons/literacy.dds
+	state_education_access_add = 0.20
+	country_tech_spread_add = 10
+	country_weekly_innovation_add = 10
+	country_weekly_innovation_max_add = 10
+}
+
+tve_literacy_2 = {
+	icon = gfx/interface/icons/generic_icons/literacy.dds
+	state_education_access_add = 0.20
+	country_tech_spread_add = 15
+	country_weekly_innovation_add = 15
+	country_weekly_innovation_max_add = 15
+}
+
+###
 
 ### Balance Changes
 
@@ -139,4 +164,13 @@ political_dysfunction = {
 	state_radicals_from_sol_change_mult = 0.3
 	country_legitimacy_base_add = -75
 }
+
+country_literacy_rate = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_weekly_innovation_max_add = 150
+	country_tech_spread_add = 75
+	country_weekly_innovation_add = 100
+}
+
+
 

@@ -7,3 +7,6 @@
  tve_doctrine_diplomacy:0 "Sending out Diplomats"
  #University Max Building
  modifier_state_building_university_max_level_add:0 "University Max Level"
+ #Literacy buff
+ tve_literacy_1:0 "System Reformed"
+ tve_literacy_2:0 "Learners Appeased"

@@ -1,0 +1,63 @@
+namespace = tve_literacy
+
+tve_literacy.1 = {
+	type = country_event
+	placement = root
+	title = tve_literacy.1.t
+	desc = tve_literacy.1.desc
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	duration = 3
+
+	trigger = {
+		always = yes
+	}
+
+	option = {
+		name = tve_literacy.1.a
+
+		ROOT = {
+			add_modifier = {
+				name = tve_literacy_1
+				years = 7.5
+			}
+		}
+	}
+}
+
+tve_literacy.2 = {
+	type = country_event
+	placement = root
+	title = tve_literacy.2.t
+	desc = tve_literacy.2.desc
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/asia/politician_parliament_motion"
+
+	event_image = {
+		video = "gfx/event_pictures/asia_politician_parliament_motion.bk2"
+	}
+
+	duration = 3
+
+	trigger = {
+		always = yes
+	}
+
+	option = {
+		name = tve_literacy.2.a
+
+		ROOT = {
+			add_modifier = {
+				name = tve_literacy_2
+				years = 4
+			}
+		}
+	}
+}
