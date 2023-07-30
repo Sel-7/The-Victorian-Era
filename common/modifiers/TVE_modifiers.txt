@@ -133,5 +133,10 @@ unincorporated_state = {
 	state_pop_pol_str_mult = -0.9
 }
 
-
+political_dysfunction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_opposition_ig_approval_add = -20
+	state_radicals_from_sol_change_mult = 0.3
+	country_legitimacy_base_add = -75
+}
 
